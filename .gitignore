@@ -1,0 +1,34 @@
+# os/editor
+.DS_Store
+.vscode/
+.idea/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# env / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# logs
+*.log
+
+# index + data artifacts (rebuildable)
+chunks.faiss
+chunks_meta.json
+corpus.json
+
+# grobid i/o (can be very large)
+docs/
+tei/
+
+# node/web future
+node_modules/
+dist/
